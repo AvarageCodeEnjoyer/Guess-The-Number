@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess The Number</title>
+    <link href="../CSS/StyleSheet.css" rel="StyleSheet">
+    <script src = "/JavaScript/javascript.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id = "master-container">
+        <div class = "container">
+            <div id = "box1">
+                <h1 class = "text">Guess The Number</h1>
+                <h1>1 - 100</h1>
+                <div id = "input-div">
+                    <input id  = "input" type = "number" onclick = "reset1(); onclick(timer())">
+                    <button value = "Enter" id = "btn" onclick = "random()">Enter</button>
+                </div>
+                
+                <div id = "display-counter">
+                    <div id = "display"></div>
+                    <div id = "counter"></div>
+                </div>
+            
+            </div>
+           
+            
+        </div>
+        <div id = "box2">
+            <h1 class = "text">Score</h1>
+            <h2>Time</h2>
+            <div id = "timerBox">
+                0
+            </div>
+            
+            <div id = "endScreen">
+                
+            </div>
+        </div>
+
+        <div id = "box3">
+            <h1 class = "text">Restart</h1>
+            <!-- <div id = "hScore">
+                
+            </div> -->
+                <input id = "reset" type =  "reset" onclick = "window.location.reload()">
+            
+            <div id = "endScreen">
+                
+            </div>
+        </div>
+    </div>
+
+   
+</body>
+</html>

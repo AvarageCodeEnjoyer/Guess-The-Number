@@ -1,0 +1,137 @@
+*
+    {
+        border-radius: 10px;
+    }
+
+body    
+    {
+        background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+        position: relative;
+        font-family: 'Space Grotesk', sans-serif;
+        overflow: hidden;
+        
+    }
+
+#master-container
+    {
+        margin-top: -780px;
+    }
+
+.text  
+    {
+        padding-top: 10px
+    }
+
+.container
+    {
+        width: 300px;
+        height: 350px;
+        margin-top: 65%;
+        left: 600px;
+        background-color: rgba(111, 111, 111, 0.362);
+        position: relative;
+        text-align: center;
+    }
+
+#input-div
+    {
+        margin-top: -40px;
+    }
+
+#input
+    {
+        width: 70px;
+        height: 40px;
+        line-height: 40px;
+        font-size: 40px;
+        overflow: hidden;
+        background-color: rgb(255, 255, 255, 0.362);
+        margin-top: 40px;
+    }
+
+#btn
+    {
+        width: 50px;
+        padding-top: 23px;
+        padding-bottom: 4px;
+        border-radius: 10px;
+        align-items: center;
+        background-color: rgba(98, 98, 98, 0.685);
+    }
+
+#display
+    {
+        /* margin-top: 200px; */
+        width: 200px;
+        height: 40px;
+        text-align: center;
+    }
+
+/* #counter
+    {
+
+    } */
+
+#display-counter
+    {
+        background-color: rgba(245, 245, 245, 0.362);
+        width: 135px;
+        margin: auto;
+        margin-top: 30px;
+        border: 2px solid black;
+        text-align: center;
+    }
+
+#timerBox
+    {
+        width: 50px;
+        height: 50px;
+        background-color: #3f87a658;
+        border-radius: 10px;
+        margin-left: 75px;
+        border: 2px solid #f69d3c;
+    }
+
+#box2
+    {
+        width: 200px;
+        height: 300px;
+        background-color: #f69c3c58;
+        margin-top: -350px;
+        margin-left: 350px;
+        text-align: center;
+    }
+
+#box3
+    {
+        width: 200px;
+        height: 300px;
+        background-color: #3f87a658;
+        margin-top: -320px;
+        margin-left: 950px;
+        text-align: center;
+    }
+
+#reset
+    {
+        width: 50px;
+        height: 50px;
+        border: 2px solid #3f87a6;
+        background-color: #f69c3c58;
+        margin-top: 50px;
+    }
+
+#reset:hover        
+    {
+        background-color: #f69c3ca8;
+        transition: 0.2s;
+    }
+
+#hScore
+    {
+        width: 70px;
+        height: 50px;
+        margin-left: 32%;
+        margin-bottom: 10px;
+        background-color: #3f87a658;
+    }
